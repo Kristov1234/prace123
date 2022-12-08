@@ -6,63 +6,73 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="arkusz.css">
+    <link rel="stylesheet" href="arkusz2.css">
 </head>
 <body>
 <header>
     <h2>Prośby do Świętgo Mikołaja</h2>
 </header>
-<table>
-        <tr>
-            <td>
-                Imię i nazwisko dziecka:
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <lable>
-                    <input type="text">
-                </lable>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                wiek dziecka
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <lable>
-                    <input type="text">
-                </lable>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                E-mail rodzica
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <lable>
-                    <input type="text">
-                </lable>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Prośby do świętgo mikołaja:
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <lable>
-                    <textarea name="comment" cols="30" rows="10">max 200 znaków</textarea>
-                </lable>
-            </td>
-        </tr>
-</table>
-<a><button>Wyślij</button></a>
-<a><button>Reset</button></a>
+<div id="buttons">
+    <a href="index.glowna.html"><button>GLOWNA</button></a>
+    <a href="index.html"><button>LIST DO MIKOLAJA</button></a>
+    <a href="index2.html"><button>PIOSENKI</button></a>
+</div>
+<fieldset id="form">
+    <form>
+        <table>
+            <tr>
+                <td>
+                    Imię i nazwisko dziecka:
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <input type="text" placeholder="Imie I Nazwisko">
+                        </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    wiek dziecka
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <input type="text" placeholder="Wiek">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    E-mail rodzica
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <input type="text" placeholder="E-mail">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+                    Prośby do świętgo mikołaja:
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <textarea name="comment" cols="30" rows="10" placeholder="max 200 liter" maxlength="200" id="tlo"></textarea>
+                    </label>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="wyślij">
+        <input type="reset" value="reset">
+    </form>
+</fieldset>
 </body>
 </html>
