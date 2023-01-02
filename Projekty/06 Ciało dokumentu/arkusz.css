@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: aqua;
+    color: blueviolet;
+    text-align: center;
+    height: 90px;
+}
+body {
+    background-color: black;
+    color: aqua;
+}
+nav {
+    background-color: blueviolet;
+    color: cornflowerblue;
+    padding: 30px;
+}
+a {
+    color: cyan;
+    text-decoration: overline;
+}
+article {
+    background-color: blue;
+    color: brown;
+    width: 70%;
+    float: left;
+    height: 100px;
+    padding: 30px;
+}
+aside {
+    background-color: cadetblue;
+    color: blueviolet;
+    width: 30%;
+    float: left;
+    height: 100px;
+    padding: 30px;
+}
+footer {
+    background-color: brown;
+    color: antiquewhite;
+    text-align: center;
+}
+section {
+    border: 1px solid brown;
+    height: 50px;
+}

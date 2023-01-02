@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="arkusz.css">
+</head>
+<body>
+<fieldset>
+    <legend>Podstawowe dane:</legend>
+    <table>
+        <tr>
+            <td>
+               Imię i nazwisko:
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>
+                <input type="text">
+                </lable>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                E-mail
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>
+                    <input type="text">
+                </lable>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Telephone
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>
+                    <input type="text">
+                </lable>
+            </td>
+        </tr>
+        <tr>
+            <td>
+               Moje buty sa TAKIE stare:
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>
+                    <textarea name="comment" cols="30" rows="10">Nie więcej niż 300 znaków</textarea>
+                </lable>
+            </td>
+        </tr>
+ </lable>
+    </table>
+</fieldset>
+<H2>Zaprojektuj wlasne trampki:</H2>
+<fieldset>
+<legend>Własny projekt butów</legend>
+   <fieldset>
+       <Legend>Kolor <i>(wybierz jeden)</i></Legend>
+       <p><input type="radio">czerwony</p>
+       <p><input type="radio">niebieski</p>
+       <p><input type="radio">czarny</p>
+       <p><input type="radio">srebrny</p>
+   </fieldset>
+    <fieldset>
+        <legend>Opcje <i>(Możesz wybrać kilka)</i></legend>
+        <p><input type="checkbox">Błyszczące sznurówki</p>
+        <p><input type="checkbox">Metalowe logo</p>
+        <p><input type="checkbox">Świecące podeszwy</p>
+        <p><input type="checkbox">Odtwarzanie MP3</p>
+    </fieldset>
+    <fieldset>
+        <legend>Rozmiar</legend>
+        <label>
+       Rozmiar zgodny ze standardowymi numerami butów:<input list="rozmiar" name="rozmiar">
+</label>
+    <datalist id="rozmiar">
+            <option value="37"></option>
+            <option value="38"></option>
+            <option value="39"></option>
+            <option value="40"></option>
+            <option value="41"></option>
+            <option value="42"></option>
+            <option value="43"></option>
+            <option value="44"></option>
+            <option value="45"></option>
+            <option value="46"></option>
+            <option value="47"></option>
+    </datalist>
+
+    </fieldset>
+</fieldset>
+<p>
+    <input type="submit" value="Podrasuj swoje buty">
+    <input type="reset" value="Zresetuj">
+</p>
+</body>
+</html>

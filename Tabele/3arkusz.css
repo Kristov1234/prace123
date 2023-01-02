@@ -1,0 +1,10 @@
+body
+{
+    background-color: whitesmoke;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    background-color: red;
+}

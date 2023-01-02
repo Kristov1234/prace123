@@ -1,0 +1,10 @@
+table{
+    font: 90%/1.5em "lucida grande, genava";
+    text-align: center;
+    border: 4px white double;
+    border-spacing: 0;
+    border-radius: 12px;
+    box-shadow: 5px 5px 6px purple;
+    background-color: aqua;
+
+}
