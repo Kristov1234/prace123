@@ -1,0 +1,57 @@
+body {
+    background-color: lightblue;
+    margin: 300px ;
+}
+
+
+#photo {
+    transition:transform 4s ease-in-out ;
+
+}
+#photo:hover{
+    transform: rotate(1080deg) translateX(1000px) scale(1.5) translateY(-90px) ;
+
+}
+#photo2 {
+transition:  transform 2s ease-in-out;
+    animation: mymove 5s infinite;
+
+}
+#photo2:hover {
+    animation: mymove 5s infinite;
+    transform: translateX(100px) rotate(-720deg) ;
+
+}
+#photo3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration:4s;
+
+}
+@keyframes example {
+
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+
+}
+#photo4 {
+    transition: transform 2s ease-in-out;
+    height: 100px;
+    width: 200px ;
+}
+#photo4:hover {
+    transform: rotate(360deg);
+    animation: mymove 5s infinite;
+}
+h1  {
+    text-align: center;
+}
+body {
+    animation: mymove 5s infinite;
+}
