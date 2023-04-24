@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formularz kontaktowy</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<div class="kontener">
+  <div class="baner">
+    <img src="animacja.gif" alt="Baner">
+  </div>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">O nas</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </div>
+
+</div>
+<h3>Formularz kontaktowy</h3>
+<table>
+  <tr>
+    <td>Imie:</td>
+    <td><input type="text" name="imie"></td>
+  </tr>
+  <tr>
+    <td>Nazwisko:</td>
+    <td><input type="text" name="nazwisko"></td>
+  </tr>
+  <tr>
+    <td>E-mail:</td>
+    <td><input type="email" name="email"></td>
+  </tr>
+  <tr>
+    <td>Usluga:</td>
+    <td>
+      <select name="usluga">
+        <option value="naprawa komputera">Naprawa komputera</option>
+        <option value="odzyskiwanie danych">Odzyskiwanie danych</option>
+        <option value="problemy z oprogramowaniem">Problemy z oprogramowaniem</option>
+        <option value="konfiguracja sieci LAN">Konfiguracja sieci LAN</option>
+        <option value="inne">Inne</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <input type="checkbox" name="kopia" checked> Wyslij kopie wiadomosci
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<div class="stopka">
+  <p>Autor strony: <strong>Numer PESEL zdajacego</strong></p>
+</div>
+</body>
+</html>
