@@ -1,0 +1,82 @@
+*{
+    background-color: #DBCC93;
+}
+
+
+p{
+    font-size: larger;
+    background-color:#47c9af;
+}
+strong{
+    background-color: #47c9af;
+}
+h1{
+    text-align: center;
+}
+
+#obraz1 img{
+    transition: transform .7s ease-in-out;
+}
+
+#obraz1 img:hover{
+    transform: rotateX(180deg);
+}
+
+#obraz2 img{
+    transition: transform .3s ease-in-out;
+}
+
+#obraz2 img:hover{
+    transform: scale3d(200%, 200%, 200%) rotate(360deg);
+}
+
+#obraz3 img{
+    transition: transform .2s ease-in-out;
+}
+
+#obraz3 img:hover{
+    transform: skew(40deg) rotate3d(2,2,2,40deg);
+}
+
+#obraz4 img{
+    transition: transform .4s ease-in-out;
+}
+
+#obraz4 img:active{
+    transform: translate(200%) skewX(40deg) rotate(360deg) translate(-200%);
+}
+
+#obraz5 img{
+    transition: transform .4s ease-in-out;
+}
+
+#obraz5 img:hover{
+    transform: rotate(360deg) ;
+}
+
+
+
+.overlay
+{
+    position: relative;
+    width: 450px;
+    height: 278px;
+}
+
+.overlay .podpis
+{
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    background-color: black;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    color: white;
+}
+
+.overlay:hover .podpis
+{
+    opacity: 0.8;
+}

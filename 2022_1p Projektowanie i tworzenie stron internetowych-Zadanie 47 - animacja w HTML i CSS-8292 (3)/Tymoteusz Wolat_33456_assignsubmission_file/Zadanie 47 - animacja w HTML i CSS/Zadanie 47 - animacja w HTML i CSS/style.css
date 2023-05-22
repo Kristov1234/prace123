@@ -1,0 +1,166 @@
+body{
+background-color: #5b5b5b;
+}
+
+#header{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 25px;
+    color: #dedede;
+}
+
+#zdjeciaglowne{
+
+    margin-left: 150px;
+    margin-right: 150px;
+    display: block;
+
+}
+
+#zdjecie1{
+    width: 400px;
+    display: inline-block;
+    margin: 10px;
+    float: left;
+}
+
+#zdjecie1 h2{
+    text-align: center;
+    color: #dedede;
+    font-size: 30px;
+}
+
+#zd1{
+transition: all 0.3s ease-in-out;
+
+}
+
+#zd1:hover{
+transform: scale(0.95);
+}
+
+#zd2{
+    transition: all 0.3s ease-in-out ;
+
+}
+
+#zd2:hover{
+    transform: scale(0.95) rotate3d(40,200,40,20deg);
+}
+
+#zdjecie2{
+    width: 400px;
+  float: left;
+ margin-left: 370px;
+}
+
+#zdjecie2 h2{
+    text-align: center;
+    color: #dedede;
+    font-size: 30px;
+}
+
+#zdjecie3 h2{
+    text-align: center;
+    font-size: 30px;
+    color: #dedede;
+    margin-left: -25px;
+}
+
+#zd3{
+    display: inline-block;
+   margin-left: -30px;
+    transition: ease-in-out 0.9s;
+}
+
+#zd3:hover{
+    display: inline-block;
+   margin-left: -30px;
+    transform: rotate(10deg);
+}
+
+@keyframes appear {
+0%{
+    transform: translateX(-50px);
+}
+    100%{
+        transform: translateX(1000px);
+    }
+    
+}
+
+#box1{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    animation: alternate 3s 3s both infinite ease-in-out appear;
+    transition: all ease-in-out 4s;
+}
+
+#box1 h1{
+    color: #dedede;
+    text-align: center;
+}
+
+#box1:hover{
+    background-image:url("https://d3lqdljps13i2n.cloudfront.net/recursos/87/2789897/imagen_1_1485532153.gif");
+
+}
+
+@keyframes cos {
+0%{
+    transform: translateY(10%);
+}
+
+    50%{
+        transform: translateY(70%);
+        transform: scale3d(70%,70%,70%);
+
+    }
+
+    100%{
+        transform: translateX(100px);
+    }
+
+
+}
+
+#box2{
+    margin-top: 50px;
+    animation: alternate 1s 1s both infinite ease-in-out cos;
+    width: 200px;
+    height: 200px;
+    background-color: #be3b3b;
+    margin-bottom: 50px;
+    float: left;
+
+}
+
+#box3{
+    margin-top: 50px;
+    animation: alternate 1.2s 1.2s both infinite ease-in-out cos1;
+    width: 200px;
+    height: 200px;
+    background-color: #be3b3b;
+    margin-bottom: 50px;
+    float: right;
+
+}
+
+@keyframes cos1 {
+    0%{
+        transform: translateY(10%);
+    }
+
+    50%{
+        transform: translateY(70%);
+        transform: scale3d(70%,70%,70%);
+
+    }
+
+    100%{
+        transform: translateX(-100px);
+    }
+
+
+}

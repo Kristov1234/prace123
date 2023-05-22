@@ -1,0 +1,134 @@
+body {
+    background-color: #374254;
+    margin: 0;
+}
+
+#gora {
+    background-color: #0e1424;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+#menu {
+    position: relative;
+    font-size: 2em;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    outline: none;
+}
+
+li {
+
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.4s all ease;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
+li:hover {
+    color: #0051ff;
+    transition: 0.4s all ease;
+}
+
+li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #0051ff;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+li:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container {
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 1936px;
+}
+
+.gallery-container .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 768px;
+}
+
+.gallery-container .gallery-wrap .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    transition: .8s ease;
+}
+
+.gallery-container .gallery-wrap .item:hover {
+    flex: 7;
+}
+
+.gallery-container .item:first-of-type {
+    background-image: url(wiedzmin.jpg);
+}
+
+.gallery-container .item:nth-of-type(2) {
+    background-image: url(ciri.jpg);
+}
+
+.gallery-container .item:nth-of-type(3) {
+    background-image: url(obraz2.jpg);
+}
+
+.gallery-container .item:nth-of-type(4) {
+    background-image: url(obraz1.jpg);
+}
+
+.gallery-container .item:last-of-type {
+    background-image: url(wojna.jpg);
+}
+
+#zdjecia {
+    padding: 200px;
+}
+
+
+#stopka {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    font-family: Arial, serif;
+    color: #ececec;
+    padding: 30px;
+    font-size: 1.5em;
+    text-align: center;
+}

@@ -1,0 +1,361 @@
+body{background-color: blue;
+    
+}
+#strona{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#strona > h1{
+    letter-spacing: 3px;
+   color: blanchedalmond;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#strona > h1:hover{
+    transform: scale(0.8);
+    color: black;
+    
+}
+#strona > h1{
+    transition: 1s;
+}
+
+#animacja{
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 50%;
+    animation: animacja 3s infinite ease;
+    margin-top: 50px;
+}
+@keyframes animacja {
+    0%{
+        background-color: aquamarine;
+      
+    }
+    25%{
+        background-color: black;
+        
+    }
+    50%{
+        background-color: blueviolet;
+        
+    }
+    75%{
+        background-color: chartreuse;
+      
+    }
+    100%{
+        background-color: aquamarine;
+        
+    }
+}
+#kwadrat{
+    
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: relative;
+    animation: ruch 3s  infinite;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    
+   
+   
+    
+   
+}
+@keyframes ruch{
+    0%{
+    
+        right: -185px;
+        
+    }
+50%{
+right: 185px;
+}
+    
+    100%{
+        right: -185px;
+        
+        
+    }
+}
+
+#trzy1{
+        width: 0;
+        height: 0;
+        border-bottom: 122px solid #F34A53;
+        border-right: 122px solid transparent;
+        margin: 0px auto 0;
+        position: relative;
+        animation: trzy1 4s  infinite;
+       
+        
+        
+        
+}
+#trzy2 {
+	width: 0;
+	height: 0;
+	border-bottom: 122px solid #F34A53;
+	border-left: 122px solid transparent;
+    margin: 0px auto 0;
+    position: relative;
+    
+    animation: trzy2 4s  infinite;
+    
+
+   
+}
+#trzy3 {
+	width: 0;
+	height: 0;
+	border-top: 122px solid #F34A53;
+	border-left: 122px solid transparent;
+	margin: 0px auto 0;
+    position: relative;
+
+    
+    animation: trzy3 4s  infinite;
+}
+#trzy4 {
+	width: 0;
+	height: 0;
+	border-top: 122px solid #F34A53;
+	border-right: 122px solid transparent;
+	margin: 0px auto 0;
+    position: relative;
+   
+    
+    animation: trzy4 4s  infinite;
+}
+
+
+
+
+
+#trójkąt{
+  margin-top: 250px;
+}
+  
+ 
+ 
+
+@keyframes trzy1{
+    0%{
+    
+        left: 61px;
+        bottom: -122px;
+        transform: rotate(0deg) scale(1);
+    }
+    50%{
+        left: 150px;
+        bottom: 0px;
+       
+        transform: rotate(-360deg) scale(2);
+        
+    }
+    100%{
+       
+        left: 61px;
+        bottom: -122px;
+        transform: rotate(0deg) scale(1);
+        
+    }
+}
+@keyframes trzy2{
+    0%{
+    
+        right: 61px;
+        bottom: 0px;
+        transform: rotate(0deg) scale(1);
+        
+    }
+    50%{
+        right: 150px;
+        bottom: 122px;
+        
+        transform: rotate(360deg) scale(2);
+    }
+    100%{
+       
+        right: 61px;
+        bottom: 0px;
+        transform: rotate(0deg) scale(1);
+        
+    }
+}
+@keyframes trzy3{
+    0%{
+    
+        right: 61px;
+        top: 0px;
+        transform: rotate(0deg) scale(1);
+       
+        
+    }
+    50%{
+        right: 150px;
+        top: 122px;
+       
+        transform: rotate(360deg) scale(2);
+      
+        
+        
+    }
+    100%{
+       
+        right: 61px;
+        top: 0px;
+        transform: rotate(0deg) scale(1);
+        
+        
+        
+        
+    }
+}
+@keyframes trzy4{
+    0%{
+    
+        left: 61px;
+        top: -122px;
+        transform: rotate(0deg) scale(1);
+        
+    }
+    50%{
+        left: 150px;
+        top: 0px;
+        
+        transform: rotate(-360deg) scale(2);
+
+        
+    }
+    100%{
+       
+        left: 61px;
+        top: -122px;
+        transform: rotate(0deg) scale(1);
+        
+    }
+}
+#circle1{
+    height: 75px;
+    width: 75px;
+    
+    background-color: chartreuse;
+    position: relative;
+    border-radius: 50%;
+    margin: 0px auto 0;
+    animation:circle1 1.2s infinite ;
+    transition: all ease-in-out;
+}
+#circle2{
+    height: 75px;
+    width: 75px;
+    left: 105px;
+    bottom: 75px;
+    background-color: chartreuse;
+    position: relative;
+    border-radius: 50%;
+    margin: 0px auto 0;
+    animation:circle2 1.2s infinite ;
+    animation-delay: 0.2s;
+}
+#circle3{
+    height: 75px;
+    width: 75px;
+    left: 210px;
+    bottom: 150px;
+    background-color: chartreuse;
+    position: relative;
+    border-radius: 50%;
+    margin: 0px auto 0;
+    animation:circle3 1.2s infinite ;
+    animation-delay: 0.4s;
+    
+}
+@keyframes circle1{
+    0%{
+ transform: scale(1);
+    }
+
+50%{
+    transform: scale(0.7);
+}
+100%{
+    transform: scale(1);
+}
+}
+@keyframes circle2{
+      0%{
+        transform: scale(1);
+    }
+50%{
+    transform: scale(0.7);
+}
+100%{
+    transform: scale(1);
+}  
+}
+@keyframes circle3{
+    0%{
+        transform: scale(1);
+    }
+50%{
+    transform: scale(0.7);
+}
+100%{
+    transform: scale(1);
+} 
+}
+
+#load{
+    margin-top: 70px;
+    margin-right: 200px;
+}
+#animacja-tekst{
+    border: solid 10px black;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 20px auto 0;
+    border-radius: 20%;
+    background-color: white;
+    
+}
+
+#kwadrat-tekst{
+   
+   
+    border: solid 10px black;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 20px auto 0 ;
+    border-radius: 20%;
+    background-color: white;
+}
+
+#trójkąt-tekst{
+    border: solid 10px black;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    margin: 20px auto 0 ;
+    border-radius: 20%;
+    background-color: white;
+}
+#load-tekst{
+    border: solid 10px black;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 20px auto 0 ;
+    border-radius: 20%;
+    background-color: white;
+}

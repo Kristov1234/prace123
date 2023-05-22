@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Zadanie 47</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color: cyan;
+        }
+        footer{
+            color: aqua;
+           float: bottom;
+        }
+
+        #rodzic {
+            width:900px;
+            height:46px;
+            font-size:24px;
+            margin:0 auto;
+            text-align:center;
+        }
+
+        #rodzic > span {
+            display:block;
+            float:left;
+            width:40px;
+            line-height:40px;
+            margin:0 5px;
+            border:3px solid purple;
+            background-color:cyan;
+            border-radius:6px;
+            animation:animowany_tekst 7s linear infinite;
+            -webkit-animation:animowany_tekst 7s linear infinite;
+        }
+
+        #rodzic > span:nth-child(1) {
+            animation-delay:250ms;
+            -webkit-animation-delay:250ms;
+        }
+
+        #rodzic > span:nth-child(2) {
+            animation-delay:500ms;
+            -webkit-animation-delay:500ms;
+        }
+
+        #rodzic > span:nth-child(3) {
+            animation-delay:750ms;
+            -webkit-animation-delay:750ms;
+        }
+
+        #rodzic > span:nth-child(4) {
+            animation-delay:1000ms;
+            -webkit-animation-delay:1000ms;
+        }
+
+        #rodzic > span:nth-child(5) {
+            animation-delay:1250ms;
+            -webkit-animation-delay:1250ms;
+        }
+
+        #rodzic > span:nth-child(6) {
+            animation-delay:1500ms;
+            -webkit-animation-delay:1500ms;
+        }
+
+        #rodzic > span:nth-child(7) {
+            animation-delay:1750ms;
+            -webkit-animation-delay:1750ms;
+        }
+
+        #rodzic > span:nth-child(8) {
+            animation-delay:2000ms;
+            -webkit-animation-delay:2000ms;
+        }
+        #rodzic > span:nth-child(9) {
+            animation-delay:2250ms;
+            -webkit-animation-delay:2250ms;
+        }
+        #rodzic > span:nth-child(10) {
+            animation-delay:2500ms;
+            -webkit-animation-delay:2500ms;
+        }
+        #rodzic > span:nth-child(11) {
+            animation-delay:2750ms;
+            -webkit-animation-delay:2750ms;
+        }
+        #rodzic > span:nth-child(12) {
+            animation-delay:3000ms;
+            -webkit-animation-delay:3000ms;
+        }
+        #rodzic > span:nth-child(13) {
+            animation-delay:3250ms;
+            -webkit-animation-delay:3250ms;
+        }
+        #rodzic > span:nth-child(14) {
+            animation-delay:3250ms;
+            -webkit-animation-delay:3250ms;
+        }
+        #rodzic > span:nth-child(15) {
+            animation-delay:3500ms;
+            -webkit-animation-delay:3500ms;
+        }
+
+
+
+
+        @keyframes animowany_tekst
+        {
+            0% {transform:rotate(0);}
+            10% {transform:rotate(360deg);}
+            100% {transform:rotate(360deg);}
+        }
+
+        @-webkit-keyframes animowany_tekst
+        {
+            0% {-webkit-transform:rotate(0);}
+            10% {-webkit-transform:rotate(360deg);}
+            100% {-webkit-transform:rotate(360deg);}
+        }
+    </style>
+
+</head>
+<h1>Fajna animacja</h1>
+<body>
+
+<div id="rodzic">
+    <span id="dziecko1">I</span><span id="dziecko2">G</span><span id="dziecko3">O</span><span id="dziecko4">R</span><span id="dziecko5">J</span><span id="dziecko6">A</span><span id="dziecko7">K</span><span id="dziecko8">U</span><span id="dziecko9">B</span><span id="dziecko10">O</span><span id="dziecko11">W</span><span id="dziecko12">I</span><span id="dziecko13">C</span><span id="dziecko14">Z</span><span id="dziecko15">1p</span>
+</div>
+
+</body>
+<footer>
+Igor Jakubowicz 1p/2 Zespół Szkoł Polietechniczynch w Głogowie
+</footer>
+</html>

@@ -1,0 +1,140 @@
+* {
+    background-color:rgb(75, 74, 72);
+}
+#menu
+{ 
+	border: 2px dashed black;
+	width: 100%;
+	padding: 30px 0;
+	background-color:gray;
+	text-align: center;
+    clear: both;
+}
+#menu:hover {
+	border: 2px dashed silver;
+}
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: aquamarine;
+	text-decoration: none;
+	display: block;
+	background-color: darkgray;
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+}
+ol > li:hover
+{
+        text-align:center;
+        animation:
+        tlo 500ms linear 0s infinite normal forwards;
+}
+        @keyframes tlo
+      {
+        0% { background-color:#FFF; }
+        100% { background-color:#F00; }
+      }
+ol > li:hover > a
+{
+	color: #451717;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#cf6969;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #751b1b;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #c34f4f;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #451717;
+}
+h1, h2 {
+    background-color: #222222;
+    color: aquamarine;
+    text-align: center;
+}
+#Zdjecie {
+    animation: animate 1s linear infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 200px;
+}
+@keyframes animate {
+    0% {
+      filter:hue-rotate(0deg);  
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+#cog {
+top: 25%;
+left: 5%;
+     position: absolute;
+    transition: transform 1s ease-in-out;
+    }
+    #cog:hover {
+        transform: scale(2) rotate(720deg);
+        transform-style: flat;
+    }
+#ukryte {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 25%;
+        left: 75%;
+        opacity: 1;
+        text-align: center;
+        color: aquamarine;
+}
+#ukryte:hover {
+    opacity: 0;
+    transition: 1s;
+}
+#stopka
+{
+	text-align: center;
+	background-color: #222222;
+	padding: 30px;
+    clear: both;
+}

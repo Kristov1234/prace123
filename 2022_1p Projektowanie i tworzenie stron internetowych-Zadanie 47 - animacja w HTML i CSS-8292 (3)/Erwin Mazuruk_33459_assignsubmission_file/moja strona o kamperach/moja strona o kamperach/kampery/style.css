@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1%;
+    overflow: hidden;
+
+}
+
+nav,
+header {
+    height: 400px;
+}
+
+nav {
+    width: 450px;
+    float: left;
+
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav.desktop li {
+    font-size: 20px;
+
+}
+
+nav.desktop a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    padding: 5px;
+
+
+
+}
+
+nav.desktop i {
+    width: 30px;
+    margin-right: 20px;
+    transition: .5s;
+    line-height: calc(400px / 4 - 10px)
+}
+
+nav.desktop a:hover i {
+    margin-right: 40px;
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+
+
+header {
+    float: left;
+    width: calc(100% - 450px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
+@media (max-width: 1024px) {
+    .desktop {
+        display: none;
+    }
+
+
+    nav.mobile {
+        display: block;
+        height: 10%;
+        margin: 0 auto;
+        height: 20%;
+        width: 100%;
+        padding: 5%;
+    }
+
+
+
+    nav.mobile a {
+        padding: 0;
+        line-height: 20%;
+        color: black;
+        text-align: center;
+        display: block;
+
+    }
+
+    nav.mobile i {
+        width: calc(100% / 4);
+        float: left;
+        margin-right: 0;
+        transition: .5s;
+        border: none;
+
+    }
+
+    nav.mobile a:hover {
+        background-color: dodgerblue;
+
+    }
+
+    nav,
+    header {
+        height: 250px;
+    }
+
+    header {
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+
+    }
+
+}
+
+
+
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+    padding: 1%;
+    background-color: dodgerblue;
+}
+
+.buttons {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+div.red {
+    position: absolute;
+    top: 80%;
+    left: calc(90% / 3);
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+div.green {
+    position: absolute;
+    top: 80%;
+    left: calc(90% / 2 + 25px);
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    z-index: 1;
+}
+
+div.blue {
+    position: absolute;
+    top: 80%;
+    right: calc(90% / 3);
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    z-index: 1;
+}
+
+div.texts {
+    background-color: antiquewhite;
+    height: 500px;
+    position: relative;
+    transition: 1s;
+    padding-top: 900px;
+
+}
+
+.texts p.red {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    opacity: 0;
+
+}
+
+.texts p.green {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    opacity: 0;
+}
+
+.texts p.blue {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    opacity: 0;
+}
+
+.red:hover~.texts {
+    background-color: lightcoral;
+}
+
+.green:hover~.texts {
+    background-color: lightgreen;
+}
+
+.blue:hover~.texts {
+    background-color: lightsteelblue;
+}
+
+div.red:hover~.texts p.red,
+div.green:hover~.texts p.green,
+div.blue:hover~.texts p.blue {
+    opacity: 1;
+}
+
+@media(max-width:1024px) {
+    main {
+        position: relative;
+    }
+
+    div.red {
+        top: 5px;
+        left: 20%;
+    }
+
+    div.green {
+        top: 5px;
+        left: calc(100% /2 - 25px)
+    }
+
+    div.blue {
+        top: 5px;
+        right: 20%;
+    }
+}
+.photo1 {
+    width: 800px;
+    transition: all 0.2s ease-in-out;
+}
+.photo1:hover
+{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}

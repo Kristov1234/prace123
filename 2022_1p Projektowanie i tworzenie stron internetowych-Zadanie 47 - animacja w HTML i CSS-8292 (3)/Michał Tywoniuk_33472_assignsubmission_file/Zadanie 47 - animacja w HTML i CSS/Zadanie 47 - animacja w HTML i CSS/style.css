@@ -1,0 +1,42 @@
+.sidepan img {
+    margin: 0px;
+    -webkit-transition: margin 1s ease;
+    -moz-transition: margin 1s ease;
+    -o-transition: margin 1s ease;
+    -ms-transition: margin 1s ease;
+    transition: margin 1s ease;
+}
+
+.sidepan img:hover {
+    margin-left: -200px;
+}
+.poch {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.poch:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+.focus {
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.focus:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}

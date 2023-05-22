@@ -1,0 +1,50 @@
+#menu {
+    background-color: aquamarine;
+    width: 200px;
+    height: 650px;
+    float: left;
+}
+#footer  {
+    background-color: cyan;
+    clear: both;
+    width: 1200px;
+    height: 80px;
+text-align: center;
+
+}
+body {
+    background-color: black;
+    margin: 150px;
+
+
+}
+#p {
+    background-color: white;
+    height: 50px;
+    width: 1000px;
+    float: right    ;
+    text-align: center;
+}
+#p2 {
+    background-color: chartreuse;
+    height: 50px;
+    width: 1000px;
+    float: right;
+    text-align: center;
+}
+#all {
+    width: 1200px;
+    height: 750px;
+}
+#zdjecie {
+    float: right;
+    width: 1000px;
+    height: 600px;
+}
+#zdjecie2 {
+    float: right;
+    width: 1000px;
+    height: 600px;
+    background-color: chartreuse;
+
+}

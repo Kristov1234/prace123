@@ -1,0 +1,171 @@
+body {
+	background-color: rgba(0, 147, 255, 0.72);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #efefef;
+}
+
+a:link {
+    color: #fff;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:active {    
+	color: #fff;
+}
+
+.container {
+	text-align: center;
+	margin-left: 500px;
+	margin-right: 500px;
+	padding: 0;
+	margin-bottom: 25px;
+	border: #000000 solid; border-radius: 20px 15px 20px 15px;
+}
+
+.obrazy {
+	text-align: center;
+	padding: 5px;
+}
+
+.obrazy p {
+	padding: 5px;
+	margin-top: 10px;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 400;
+	color: #a4f139;
+	margin-top: 45px;	
+	margin-bottom: 30px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+.obraz1 {
+	width: 450px;
+	transition: all 1.5s ease-in-out ;
+}
+
+.obraz1:hover {
+
+	-webkit-transform: rotate(-13deg) ;
+	-ms-transform: rotate(-13deg) ;
+	transform: rotate(-13deg) ;
+
+}
+
+.obraz2 {
+	width: 450px;
+	transition: all 1.5s ease-in-out ;
+}
+
+.obraz2:hover {
+
+	-webkit-transform: rotateX(20deg) rotateY(30deg);
+	-ms-transform: rotateX(20deg) rotateY(30deg);
+	transform: rotateX(20deg) rotateY(30deg);
+
+}
+
+.obraz3 {
+	width: 450px;
+	transition: all 1.5s ease-in-out ;
+}
+
+.obraz3:hover {
+
+	-webkit-transform: scale(0.8) rotate(30deg) ;
+	-ms-transform: scale(0.8) rotate(30deg) ;
+	transform: scale(0.8) rotate(30deg) ;
+
+}
+
+.podobraz1i1 {
+	float: right;
+	width: 500px;
+	transition: all 1.5s ease-in-out ;
+	
+}
+
+.podobraz1i2 {
+	width: 500px;
+	transition: all 1.5s ease-in-out ;
+	
+}
+
+.podobraz2i1 {
+	float: right;
+	width: 500px;
+	transition: all 1.5s ease-in-out ;
+	
+}
+
+.podobraz2i2 {
+     width: 500px;
+	 overflow: hidden;
+	
+}
+
+.podobraz2i2 img {
+	transition: all 10s ease-in-out ;
+   
+}
+
+.podobraz3i1 {
+	float: right;
+	width: 500px;
+	transition: all 5s ease-in-out ;
+	
+}
+
+.podobraz3i2 {
+	width: 500px;
+	transition: all 3s ease-in-out ;
+	
+}
+
+.podobraz1i1:hover {
+	-webkit-transform: rotate(13deg);
+	-ms-transform: rotate(13deg) ;
+	transform: rotate(13deg);
+}
+
+.podobraz1i2:hover {
+	-webkit-transform: rotate(360deg) ;
+	-ms-transform: rotate(360deg)  ;
+	transform: rotate(360deg)  ;
+}
+
+.podobraz2i1:hover {
+	-webkit-transform: scale(1.15) ;
+	-ms-transform:scale(1.15)  ;
+	transform: scale(1.15)  ;
+}
+
+.podobraz2i2:hover img {
+	-webkit-transform: scale(1.1)  ;
+	-ms-transform:scale(1.1)  ;
+	transform:scale(1.1)  ;
+}
+
+.podobraz3i1:hover {
+	-webkit-transform: rotateZ(30deg) rotateX(360deg) ;
+	-ms-transform: rotateZ(30deg) rotateX(360deg)  ;
+	transform: rotateZ(30deg) rotateX(360deg)  ;
+}
+
+.podobraz3i2:hover {
+	-webkit-transform: scaleX(10px) rotateX(10deg) rotateZ(60deg);
+	-ms-transform: scaleX(10px) rotateX(10deg) rotateZ(60deg) ;
+	transform: scaleX(10px) rotateX(10deg) rotateZ(60deg) ;
+}

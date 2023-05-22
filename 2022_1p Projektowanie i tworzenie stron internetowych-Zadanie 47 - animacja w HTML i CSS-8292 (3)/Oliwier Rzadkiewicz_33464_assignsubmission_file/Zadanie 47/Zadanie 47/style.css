@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to right, floralwhite, whitesmoke, floralwhite);
+}
+
+#naglowek {
+    background-color: antiquewhite;
+    padding: 15px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-left: double 25px navajowhite;
+    border-right: double 25px navajowhite;
+}
+
+#footer {
+    background-color: antiquewhite;
+    padding: 10px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 15px;
+    text-align: right;
+    border-left: double 25px navajowhite;
+    border-right: double 25px navajowhite;
+    margin-bottom: 1%;
+}
+
+
+
+#content > #jeden > img {
+    border-radius: 25px;
+    margin: 50px;
+}
+
+#content > #dwa > img {
+    border-radius: 25px;
+    margin: 50px;
+}
+
+#content > #jeden, #dwa {
+    width: 100%;
+    text-align: center;
+}
+
+.a {
+    transition: transform .5s ease-in-out;
+}
+
+.a:hover {
+    transform: scale(0.90);
+}
+
+.b {
+    transition: transform 1s ease-in-out;
+}
+
+.b:hover {
+    transform: rotate(360deg);
+}
+
+.c {
+    transition: transform .5s ease-in-out;
+}
+
+.c:hover {
+    transform: scaleX(1.1);
+}
+
+.d {
+    transition: transform .5s ease-in-out;
+}
+
+.d:hover {
+    transform: rotateY(180deg);
+}
